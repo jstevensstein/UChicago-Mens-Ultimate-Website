@@ -43,7 +43,7 @@ body {
     margin-top: -10px;
     width: 40px;
     height: 40px;
-    background: url(./img/brand-999.png);
+    background: url(/img/brand-999.png);
     background-size: 40px auto;
 }
 #brand:hover{
