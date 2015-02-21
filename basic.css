@@ -99,17 +99,61 @@ body {
   }
 }
 
-.jumbotron > h1 {
+.jumbotron h1 {
   font-size: 500%;
   color: #96281B;
 }
 
-.jumbotron > h2 {
+.jumbotron h2 {
   font-size: 300%;
 }
 
-.jumbotron > p {
+.jumbotron p {
   font-size: 150%;
+}
+
+.jumbotron li {
+  font-size: 150%;
+}
+
+html {
+  font-size: 16px;
+}
+@media (max-width: 800px) {
+  .jumbotron h1 {
+  font-size: 400%;
+  color: #96281B;
+}
+
+.jumbotron h2 {
+  font-size: 240%;
+}
+
+.jumbotron p {
+  font-size: 120%;
+}
+
+.jumbotron li {
+  font-size: 120%;
+}
+}
+@media (max-width: 500px) {
+  .jumbotron > h1 {
+  font-size: 300%;
+  color: #96281B;
+}
+
+.jumbotron h2 {
+  font-size: 200%;
+}
+
+.jumbotron p {
+  font-size: 100%;
+}
+
+.jumbotron > ul > li {
+  font-size: 100%;
+}
 }
 
 a {
